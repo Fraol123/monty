@@ -47,9 +47,11 @@ Run monty on file:
 :postbox: opcode preceded by ```#``` are treted as comment
 
 :blue_book: AUTHOR
-Fraol Tolera 
+-------------------
+:computer:Fraol Tolera 
 
-:trumpet: Acknowldgement 
+:trumpet: Acknowldgement
+---------------------------- 
 
 - Holberton School- for giving these challenging project and providing guidlines
 - ALX- sensei 
