@@ -1,2 +1,61 @@
-# monty
-interpreter built by C language 
+ Getting started
+----------------------
+- Ubuntu 14.04 LTS - operating system required
+- GCC 4.8.4 - Compiler used
+
+  how ro install
+
+clone these repository to your machine:
+```
+$ git clone
+```
+compile with the following:
+```
+gcc -Wall -Werror -Wextra -pedantic *.c -o monty
+```
+Run monty on file:
+```
+./monty file.m
+```
+** Monty Interpreter **
+=======================
+These is monty interpreter built on C language and complient with ```ISO90```,```ISO099```. ```&ISO11```.it reads monty bytcode files
+of any extension.However I prefer if you use ```.m``` extension.
+
+monty can run as either a stack (LIFO) or queue(FIFO).Mode can be switched mid-script. the interpreter can handle a varity opcodes, including
+printing, mathmatical operations, and more all handled opcodes are listed .
+
+ 
+ 
+ below- Monty opcodes
+-----------------
+- push
+   - Usage:```push <int>```
+   - pushes an element to the stack
+   - The parameter ```<int>``` must be an integer
+- pall
+   - prints value in stack/queus, starting fromm the top.
+- pint
+   - prints the top value of the stack\queus.
+- pop
+   - Removes the top element of the stack\queus.
+- swap
+   -swaps the top two element of stack\queue
+- nop
+  - does nothing
+- add
+ - Adds the top two elements of the stack\queue
+ - The result is stored in the second element from the top and the top element is poped
+
+ opcode preceded by ```#``` are treted as comment
+
+  AUTHOR
+- Fraol Tesfaye
+
+ Acknowldgement
+- Holberton School- for giving these challenging project and providing guidlines
+- ALX- sensei
+- stack overflow - providing solution as needed
+
+
+
