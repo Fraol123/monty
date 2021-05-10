@@ -1,10 +1,18 @@
- Getting started
-----------------------
+Monty Interpreter   
+=======================
+These is monty interpreter built on C language and complient with ```ISO90```,```ISO099```. ```&ISO11```.it reads monty bytcode files
+of any extension.However I prefer if you use ```.m``` extension.
+
+monty can run as either a stack (LIFO) or queue(FIFO).Mode can be switched mid-script. the interpreter 
+can handle a varity opcodes, including printing, mathmatical operations, and more all handled opcodes are listed below.
+
+ :runner: Getting Started
+----------------------------
 - Ubuntu 14.04 LTS - operating system required
 - GCC 4.8.4 - Compiler used
 
-  how ro install
-
+:zap: How to install
+------------------------
 clone these repository to your machine:
 ```
 $ git clone
@@ -17,18 +25,8 @@ Run monty on file:
 ```
 ./monty file.m
 ```
-** Monty Interpreter **
-=======================
-These is monty interpreter built on C language and complient with ```ISO90```,```ISO099```. ```&ISO11```.it reads monty bytcode files
-of any extension.However I prefer if you use ```.m``` extension.
-
-monty can run as either a stack (LIFO) or queue(FIFO).Mode can be switched mid-script. the interpreter can handle a varity opcodes, including
-printing, mathmatical operations, and more all handled opcodes are listed .
-
- 
- 
- below- Monty opcodes
------------------
+:wrench: Monty Opcodes
+-----------------------------
 - push
    - Usage:```push <int>```
    - pushes an element to the stack
@@ -46,16 +44,14 @@ printing, mathmatical operations, and more all handled opcodes are listed .
 - add
  - Adds the top two elements of the stack\queue
  - The result is stored in the second element from the top and the top element is poped
+:postbox: opcode preceded by ```#``` are treted as comment
 
- opcode preceded by ```#``` are treted as comment
-
-  AUTHOR
-- Fraol Tesfaye
-
- Acknowldgement
+:blue_book: AUTHOR
+- Fraol Tolera 
+:trumpet: Acknowldgement 
 - Holberton School- for giving these challenging project and providing guidlines
-- ALX- sensei
+- ALX- sensei 
 - stack overflow - providing solution as needed
 
-
-
+ 
+ 
