@@ -15,7 +15,7 @@ can handle a varity opcodes, including printing, mathmatical operations, and mor
 ------------------------
 clone these repository to your machine:
 ```
-$ git clone
+$ git clone https://github.com/Fraol123/monty.git
 ```
 compile with the following:
 ```
