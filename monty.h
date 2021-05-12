@@ -54,6 +54,8 @@ void op_sub(stack_t **stack, unsigned int line_number);
 void op_div(stack_t **stack, unsigned int line_number);
 void op_mul(stack_t **stack, unsigned int line_number);
 void op_mod(stack_t **stack, unsigned int line_number);
+void op_pchar(stack_t **stack, unsigned int line_number);
+
 
 /* error handling functions */
 void file_error(void);
@@ -72,6 +74,8 @@ void div_error(stack_t **stack, unsigned int line_number);
 void zero_error(stack_t **stack, unsigned int line_number);
 void mul_error(stack_t **stack, unsigned int line_number);
 void mod_error(stack_t **stack, unsigned int line_number);
+void pchar_error(stack_t **stack, unsigned int line_number);
+void char_error(stack_t **stack, unsigned int line_number);
 
 
 /**
