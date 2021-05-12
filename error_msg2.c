@@ -12,3 +12,29 @@ void sub_error(stack_t **stack, unsigned int line_number)
 	free_stack(stack);
 	exit(EXIT_FAILURE);
 }
+/**
+ * div_error - handles error for op_div function
+ * @stack: a  pointer to head node
+ * @line_number: line number where error occured
+ *
+ * Return: nothing
+ */
+void div_error(stack_t **stack, unsigned int line_number)
+{
+	fprintf(stderr, "L%d: can't div, stack too short\n", line_number);
+	free_stack(stack);
+	exit(EXIT_FAILURE);
+}
+
+/**
+ * zero_error -  handles the zerro erro for op_div function program
+ * @stack: a pointer to head node
+ * @line_number: line number where error occured
+ *
+ */
+void zero_error(stack_t **stack, unsigned int line_number)
+{
+	fprintf(stderr, "L%d: division by zero\n", line_number);
+	free_stack(stack);
+	exit(EXIT_FAILURE);
+}
