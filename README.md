@@ -44,6 +44,17 @@ Run monty on file:
 - add
  - Adds the top two elements of the stack\queue
  - The result is stored in the second element from the top and the top element is poped
+- sub
+  - subtracts the top two elements of the stack\queue
+  - the result is stored in the second element from the top and the top element is poped 
+- div
+  - divides the top two elements of stack\queue
+  - takes zero's error in considaration
+- mul
+  - multiplies the top two elements of stack\queue
+- mod
+  - modules of the top two elements of stack\queue
+
 :postbox: opcode preceded by ```#``` are treted as comment
 
 :blue_book: AUTHOR
