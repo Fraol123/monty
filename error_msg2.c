@@ -76,15 +76,3 @@ void pchar_error(stack_t **stack, unsigned int line_number)
 	exit(EXIT_FAILURE);
 }
 
-/**
- * char_error - handles error when charachter is out of range  for op_pch
- * @stack: a pointer to head node
- * @line_number: line number where error occured
- *
- */
-void char_error(stack_t **stack, unsigned int line_number)
-{
-	fprintf(stderr, "L%d: can't pchar, value out of range\n", line_number);
-	free_stack(stack);
-	exit(EXIT_FAILURE);
-}
