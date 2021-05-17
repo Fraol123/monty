@@ -5,7 +5,7 @@
  */
 void file_error(void)
 {
-	fprintf(stderr, "Error: Can't open file  %s \n", stack_val.file);
+	fprintf(stderr, "Error: Can't open file %s \n", stack_val.file);
 	exit(EXIT_FAILURE);
 }
 /**
@@ -14,7 +14,7 @@ void file_error(void)
  */
 void usage_error(void)
 {
-	fprintf(stderr, "USAGE: monty file \n");
+	fprintf(stderr, "USAGE: monty file\n");
 	exit(EXIT_FAILURE);
 }
 /**
